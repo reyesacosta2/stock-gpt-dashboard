@@ -1,0 +1,16 @@
+{
+  "name": "@music-party/music-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@music-party/types": "workspace:*",
+    "zod": "^3.24.1"
+  }
+}
